@@ -10,6 +10,6 @@ router.get('/', (req, res, next) => {
 
 router.post('/login', doLogin)
 router.post('/signup', doSignup)
-router.get('/getData', verifyUser, getData)
+router.get('/getData', verifyUser, getData)  
 
 module.exports = router;
